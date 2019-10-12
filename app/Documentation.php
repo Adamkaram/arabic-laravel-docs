@@ -43,6 +43,7 @@ class Documentation
      */
     public function getIndex($version)
     {
+//	    dd('hello');
         return $this->cache->remember('docs.'.$version.'.index', 5, function () use ($version) {
             $path = base_path('resources/docs/'.$version.'/documentation.md');
 
@@ -50,7 +51,7 @@ class Documentation
                 return $this->replaceLinks($version, (new ParsedownExtra())->text($this->files->get($path)));
             }
             
-            dd($path);
+            
 
             return null;
         });

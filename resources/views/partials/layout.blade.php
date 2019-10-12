@@ -56,6 +56,10 @@
         .callout img {
             padding: 10px !important;
         }
+
+        .navigation_contain {
+            display: block !important;
+        }
     </style>
 
 

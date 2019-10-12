@@ -31,16 +31,16 @@
                 <section class="body_content">
                     <header class="docs_actions">
                         <div class="version_drop">
-                            <div class="input_group">
-                                <label>Version</label>
-                                <div class="custom_select">
-                                    <select id="version_switcher" aria-label="Laravel version">
-                                        @foreach ($versions as $key => $display)
-                                            <option {{ $currentVersion == $key ? 'selected' : '' }} value="{{ url('docs/'.$key.$currentSection) }}">{{ $display }}</option>
-                                        @endforeach
-                                    </select>
-                                </div>
-                            </div>
+{{--                            <div class="input_group">--}}
+{{--                                <label>Version</label>--}}
+{{--                                <div class="custom_select">--}}
+{{--                                    <select id="version_switcher" aria-label="Laravel version">--}}
+{{--                                        @foreach ($versions as $key => $display)--}}
+{{--                                            <option {{ $currentVersion == $key ? 'selected' : '' }} value="{{ url('docs/'.$key.$currentSection) }}">{{ $display }}</option>--}}
+{{--                                        @endforeach--}}
+{{--                                    </select>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
                         </div>
                         <div class="search_contain">
                             <div class="input_group search icon">

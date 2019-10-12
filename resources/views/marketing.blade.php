@@ -13,7 +13,8 @@
                                 <img src="/img/ecosystem/nova.min.svg" alt="Nova">
                             </div>
                             <div class="banner_content">
-                                <p class="small">Laravel Nova is now available! Get your copy today!
+                                <p class="small">
+                                    ننوه : هذا الموقع ليس الموقع هو الرسمي للارافل
                                     <span class="arrow">→</span></p>
                             </div>
                         </a>
@@ -26,11 +27,16 @@
                                 </video>
                             </div>
                             <div class="hero_content">
-                                <h1>The PHP Framework for Web Artisans</h1>
-                                <p>Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation — freeing you to create without sweating the small things.</p>
+                                <h1>إطار عمل لمطوري الويب</h1>
+                                <p>
+                                    Laravel هو إطار لتطبيق الويب مع بناء جملة معبرة وأنيق. لقد أرسينا الأساس بالفعل - مما أدى إلى تحريرك من دون التعرق على الأشياء الصغيرة.
+
+                                </p>
                                 <div class="hero_actions">
-                                    <a href="/docs" class="btn"><span>Documentation</span></a>
-                                    <a href="https://laracasts.com" data-remodal-target="video_modal" class="btn secondary"><span><img src="/img/icons/play.min.svg" alt="Play Video"><span>Watch Laracasts</span></span></a>
+                                    <a href="/docs" class="btn"><span>الشرح</span></a>
+                                    <a href="https://laracasts.com" data-remodal-target="video_modal" class="btn
+                                    secondary"><span><img src="/img/icons/play.min.svg" alt="Play Video"><span>مشاهدة
+                                                 Laracasts</span></span></a>
 
 <!--                                     <div data-remodal-id="video_modal" class="video_modal remodal">
                                         <div class="video_contain">

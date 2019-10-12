@@ -30,32 +30,32 @@
 
 
     <style>
-        /** {*/
-        /*!*    direction: rtl;*!*/
-        /*    font-family: 'Almarai', sans-serif !important;*/
+        * {
+        /*    direction: rtl;*/
+            font-family: 'Almarai', sans-serif !important;
 
-        /*}*/
+        }
 
-        /*.docs_body .docs_main {*/
-        /*    direction: rtl !important;*/
-        /*}*/
-        /*.docs_body  h1 a:before,*/
-        /*.docs_body  h2 a:before,*/
-        /*.docs_body  h3 a:before,*/
-        /*.docs_body  h4 a:before,*/
-        /*.docs_body  h5 a:before,*/
-        /*.docs_body  h6 a:before*/
-        /*{*/
-        /*    margin-right: -25px !important;*/
-        /*}*/
+        .docs_body .docs_main {
+            direction: rtl !important;
+        }
+        .docs_body  h1 a:before,
+        .docs_body  h2 a:before,
+        .docs_body  h3 a:before,
+        .docs_body  h4 a:before,
+        .docs_body  h5 a:before,
+        .docs_body  h6 a:before
+        {
+            margin-right: -25px !important;
+        }
 
 
-        /*pre {*/
-        /*    direction: ltr !important;*/
-        /*}*/
-        /*.callout img {*/
-        /*    padding: 10px !important;*/
-        /*}*/
+        pre {
+            direction: ltr !important;
+        }
+        .callout img {
+            padding: 10px !important;
+        }
     </style>
 
 

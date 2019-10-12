@@ -49,6 +49,8 @@ class Documentation
             if ($this->files->exists($path)) {
                 return $this->replaceLinks($version, (new ParsedownExtra())->text($this->files->get($path)));
             }
+            
+            dd($path);
 
             return null;
         });
